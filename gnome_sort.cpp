@@ -9,9 +9,9 @@ void gnome_sort(int arr[], int size){
     while(i < size){
         if(i == 0)
         i++;
-        if(arr[i] >= arr[i - 1])
+        if(arr[i] >= arr[i - 1])// If the current element is greater or equal to the previous element, move to the next index
         i++;
-        else{
+        else{// Else the current elementmust be smaller than the previous element, swap them and move back to the previous index
             swap(arr[i], arr[i - 1]);
             i--;
         }
