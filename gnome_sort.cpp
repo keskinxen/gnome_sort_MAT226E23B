@@ -27,7 +27,7 @@ void gnome_sort(int arr[], int size){
 
 int main(){
 
-    int test_arr1[] = {10, 3, 5, 7, 9, 2, 4, 6, 1};
+    int test_arr1[] = {10, 3, 5, 7, 9, 8, 2, 4, 6, 1};
     int size = sizeof(test_arr1) / sizeof(test_arr1[0]);
 
     gnome_sort(test_arr1,size);
