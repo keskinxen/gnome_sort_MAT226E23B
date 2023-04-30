@@ -34,3 +34,5 @@ int main(){
 
     return 0;
 }
+
+// Reference: https://www.geeksforgeeks.org/cpp-program-for-gnome-sort/
